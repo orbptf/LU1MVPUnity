@@ -58,9 +58,9 @@ public class WorldDeletionHandler : MonoBehaviour
 
     
 
-    public async void ClickedConfirmDeletion()
+    public void ClickedConfirmDeletion()
     {
-        await DeleteSelectedWorldObjects();
+        //await DeleteSelectedWorldObjects();
         DeleteSelectedWorld();
     }
 
